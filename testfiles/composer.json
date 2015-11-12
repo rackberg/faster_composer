@@ -1,0 +1,20 @@
+{
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packagist.drupal-composer.org"
+    },
+    {
+      "type": "composer",
+      "url": "https://packagist.org"
+    }
+  ],
+
+  "require": {
+    "drupal/console": "~0.8",
+    "drupal/drupal": "8.0.0-rc2"
+  },
+  "require-dev": {
+    "symfony/console": "2.7.6"
+  }
+}
